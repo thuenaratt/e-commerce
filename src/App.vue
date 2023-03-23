@@ -94,38 +94,38 @@ import HeaderNav from './component/HeaderNav.vue';
       background: 0 0;
       flex-direction: row-reverse;
       .mainContain{
-        margin-left: 0!important;
-        margin-right: 0!important;
-        box-sizing: border-box!important;
-        flex-grow: 0!important;
-        flex-shrink: 1!important;
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+        flex-grow: 0;
+        flex-shrink: 1;
         .productlistHeader{
-          margin-left: auto!important;
-          margin-right: auto!important;
-          box-sizing: border-box!important;
-          flex-direction: column!important;
-          width: auto !important;
-          display: flex !important;
-          margin-bottom: 24px !important;
-          max-width: 1400px!important;
+          //margin-left: auto;
+          //margin-right: auto;
+          box-sizing: border-box;
+          flex-direction: column;
+          width: auto;
+          display: flex;
+          margin-bottom: 24px;
+          max-width: 1400px;
           .Header_wrapper{
-            display: flex !important;
-            flex-direction: column !important;
+            display: flex;
+            flex-direction: column;
             #product-title{
-              font-family: "Poly Regular","Times New Roman",serif !important;
-              font-size: 24px !important;
-              line-height: 32px !important;
+              font-family: "Poly Regular","Times New Roman",serif;
+              font-size: 24px;
+              line-height: 32px;
               //color: #000;
-              font-weight: 400!important;
-              letter-spacing: 0!important;
-              text-transform: none!important;
-              color: inherit!important;
-              padding: 0 0 8px 0!important;
-                margin: 0!important;
-                flex-grow: 1!important;
+              font-weight: 400;
+              letter-spacing: 0;
+              text-transform: none;
+              color: inherit;
+              padding: 0 0 8px 0;
+                margin: 0;
+                flex-grow: 1;
             }
             #product-results{
-              display: flex !important;
+              display: flex;
               font-family: "lato regular",Helvetica,Arial,sans-serif;
               font-size: 14px;
               line-height: 1.428;
